@@ -1,0 +1,96 @@
+/* Resetting margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full height layout */
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Hero section styling */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('path/to/.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+/* Button styling */
+.cta-button {
+    background-color: #00aaff;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0088cc;
+}
+
+/* Job Information Section */
+.job-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.job-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.job-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+}
+
+.job-description {
+    padding: 20px;
+    text-align: center;
+}
+
+.job-description h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.job-description p {
+    font-size: 1rem;
+    color: #555;
+}

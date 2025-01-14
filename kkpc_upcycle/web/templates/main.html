@@ -1,0 +1,47 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>금호석유화학그룹</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <img src="{% static 'images/your-image.jpg' %}" alt="Hero Image" class="hero-image">
+        <div class="hero-content">
+            <h1>새로운 미래를 열어가는 Solution Mate</h1>
+            <p>It's your pride</p>
+            <a href="#" class="cta-button">채용공고 바로가기</a>
+        </div>
+    </header>
+
+    <!-- Job Info Sections -->
+    <section class="job-info">
+        <div class="job-item">
+            <img src="{% static 'images/image1.jpg' %}" alt="생산관리">
+            <div class="job-description">
+                <h2>생산관리</h2>
+                <p>생산관리 업무는 화공엔지니어가 자신의 역할을 펼칠 수 있는 업무라고 할 수 있습니다.</p>
+            </div>
+        </div>
+        <div class="job-item">
+            <img src="{% static 'images/image2.jpg' %}" alt="환경안전">
+            <div class="job-description">
+                <h2>환경안전</h2>
+                <p>전서 및 사업장에 적용되는 환경안전 법규동향을 모니터링 하고, 당사가 대응해야 하는 방안을 기획 및 실행합니다.</p>
+            </div>
+        </div>
+        <div class="job-item">
+            <img src="{% static 'images/image3.jpg' %}" alt="공무">
+            <div class="job-description">
+                <h2>공무(설비보전)</h2>
+                <p>설비보전 직무는 크게 보전/계전으로 나누며, 기본교육 이수 후 해당 파트로 배치되어 업무를 수행하게 됩니다.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
